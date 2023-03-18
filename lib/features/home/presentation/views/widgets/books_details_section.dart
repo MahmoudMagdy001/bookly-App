@@ -17,7 +17,8 @@ class BookDetailsSection extends StatelessWidget {
         Padding(
           padding: EdgeInsets.symmetric(horizontal: width * 0.18),
           child: const CustomBookImage(
-            imageUrl: 'https://imgv3.fotor.com/images/blog-richtext-image/part-blurry-image.jpg',
+            imageUrl:
+                'https://imgv3.fotor.com/images/blog-richtext-image/part-blurry-image.jpg',
           ),
         ),
         const SizedBox(height: 40.0),
@@ -37,7 +38,11 @@ class BookDetailsSection extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 18.0),
-        const BookRating(mainAxisAlignment: MainAxisAlignment.center),
+        const BookRating(
+          mainAxisAlignment: MainAxisAlignment.center,
+          count: 250,
+          rating: 5,
+        ),
         const SizedBox(height: 28),
         const BooksAction(),
       ],
