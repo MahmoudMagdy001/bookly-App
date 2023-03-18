@@ -21,7 +21,7 @@ class BookDetailsSection extends StatelessWidget {
                 'https://imgv3.fotor.com/images/blog-richtext-image/part-blurry-image.jpg',
           ),
         ),
-        const SizedBox(height: 40.0),
+        const SizedBox(height: 30.0),
         const Text(
           'The Jungle Book',
           style: Styles.textStyle30,
@@ -37,13 +37,13 @@ class BookDetailsSection extends StatelessWidget {
             ),
           ),
         ),
-        const SizedBox(height: 18.0),
+        const SizedBox(height: 10.0),
         const BookRating(
           mainAxisAlignment: MainAxisAlignment.center,
           count: 250,
           rating: 5,
         ),
-        const SizedBox(height: 28),
+        const SizedBox(height: 20),
         const BooksAction(),
       ],
     );
